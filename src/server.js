@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 
 function startServer() {
   server.listen(PORT, () => {
-    console.log(`listening on port ${PORT}`);
+    console.log(`listening on port ${PORT}...`);
   })
 }
 
